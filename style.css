@@ -1,0 +1,586 @@
+body {
+	margin: 0;
+	font-family:"Titillium Web", serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: block;
+	width: 100%;
+	max-width: 1034px;
+	margin: 0 auto;
+}
+
+.container_XLL{
+	display: block;
+	width: 100%;
+	max-width: 1105px;
+	margin: 0 auto;
+}
+
+/*header start*/
+
+header {
+	width: 100%;
+	height: 100vh;
+	margin: 0, auto;
+	background-color: #87509c;
+}
+
+ a{
+	text-decoration: none;
+}
+
+/*Меню навигации*/
+
+.header_logo{
+	justify-content: left;
+	padding-top: 50px;
+}
+
+.header_nav {
+	/* Style for "Home" */
+	padding-top: 55px;
+	display: inline-block;
+	float: right;
+}
+
+.header_nav li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 9px 17px;
+}
+
+.nav_link {
+	color: #ffffff;
+	font-family: "Titillium Web";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.header_nav li:hover {
+	background-color: #643a79;
+	border-radius: 10%;
+}
+
+h1 {
+	color: #f7f3ea;
+	font-family: "Titillium Web";
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 48.82px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.button {
+	display: block;
+	padding: 28px 0;
+	margin: 0 auto;
+	margin-top: 62px;
+	width: 294px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 26.19px;
+	text-transform: uppercase;
+	background-color: #eb7d4b;
+	text-align: center;
+	box-shadow: 0 5px 0 #c86a40;
+}
+
+/*header end*/
+
+section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Titillium Web";
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 120px;
+}
+
+/*SERVICES_WE_PROVIDE start*/
+
+#SERVICES_WE_PROVIDE {
+	width: 100%;
+	height: 747px;
+	background-color: #17c2a4;
+	color: #ffffff;
+}
+
+.line {
+	margin: 0 auto;
+	margin-top: 22px;
+	width: 87px;
+	height: 4px;
+	background-color: #000;
+}
+
+#SERVICES_WE_PROVIDE .line {
+	opacity: 0.15;
+}
+
+.title {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.36px;
+}
+
+.services {
+	margin-top: 80px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 300px 300px 300px 300px;
+	grid-column-gap: 90px;
+}
+
+.services_item {
+
+}
+
+#SERVICES_WE_PROVIDE img {
+	display: block;
+	margin: 0 auto;
+}
+
+#SERVICES_WE_PROVIDE h3 {
+	margin-top: 60px;
+	text-align: center;
+	color: #ffffff;
+	font-family: "Titillium Web";
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 18px;
+	letter-spacing: 0.48px;
+	text-transform: uppercase;
+}
+
+.advantages {
+	padding-top: 30px;
+	text-align: center;
+	height: 64px;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0.32px;
+}
+
+/*SERVICES_WE_PROVIDE end*/
+
+/*MEET_OUR_BEAUTIFUL_TEAM start*/
+
+#MEET_OUR_BEAUTIFUL_TEAM {
+	width: 100%;
+	height: 914px;
+	background-color: #e7f1f8;
+	color: #3c4761; 
+}
+
+#MEET_OUR_BEAUTIFUL_TEAM .line {
+	background-color: #bdd1df;
+    opacity: 0.75;
+}
+
+.team {
+	padding-top: 78px;
+	display: flex;
+	width: 100%;
+}
+
+.team-item {
+	width: 200px;
+	margin-right: 80px;
+}
+
+.team-photo {
+	display: block;
+	margin: 0 auto;
+}
+
+#MEET_OUR_BEAUTIFUL_TEAM h2{
+	padding-top: 41px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 0.48px;
+}
+
+.About_myself {
+	padding-top: 26px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+}
+
+.position {
+	padding-top: 15px;
+	color: #30bae7;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+	/* Text style for "C, EO / Ma" */
+	letter-spacing: 0.32px;
+}
+
+.contacts {
+	width: 100%;
+	margin-top: 31px;
+	text-align: center;
+}
+
+.contacts img{
+	margin-left: 11px;
+}
+
+/*MEET_OUR_BEAUTIFUL_TEAM end*/
+
+/*WE_GOT_SKILLS start*/
+
+#WE_GOT_SKILLS {
+	width: 100%;
+	height: 655px;
+	background-color: #ffffff;
+	color: #3c4761;	
+}
+
+#WE_GOT_SKILLS .line {
+	background-color: #dfe8ed;
+}
+
+.skills {
+	display: flex;
+	width: 100%;
+}
+
+.skills_item {
+	margin-right: 140px;
+	padding-top: 84px;
+}
+
+.skills_progress {
+	width: 160px;
+	height: 160px;
+}
+
+.web_design {
+	background-image: url(img/web_design.png);
+}
+
+.html_css {
+	background-image: url(img/html_css.png);
+}
+
+.graphic_design {
+	background-image: url(img/graphic_design.png);
+}
+
+.ui_ux {
+	background-image: url(img/ui_ux.png);
+}
+
+.skills_progress h3 {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 20.84px;
+	text-transform: uppercase;
+	/* Text style for "9, 0" */
+	letter-spacing: 0.86px;
+}
+
+.skills_progress span {
+	font-size: 32px;
+	letter-spacing: 0.55px;
+}
+
+.skills_item h3 {
+	text-align: center;
+	display: block;
+	padding-top: 25px;
+}
+
+/*WE_GOT_SKILLS end*/
+
+/*OUR_PORTFOLIO start*/
+#OUR_PORTFOLIO {
+	width: 100%;
+	height: 1423px;
+	background-color: #ffdd99;
+	color: #393939; 
+}
+
+#OUR_PORTFOLIO .line {
+	background-color: #e5c37f;
+}
+
+#OUR_PORTFOLIO .link {
+	margin-top: 42px;
+	display: flex;
+	justify-content: center;
+}
+
+#OUR_PORTFOLIO .buttons {
+	padding: 7px 21px;
+	margin: 5px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #ebcb8d;
+	color: #393939;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-transform: uppercase;
+	letter-spacing: 0.36px;
+	border-radius: 0.25em;
+}
+
+#OUR_PORTFOLIO .buttons:hover {
+	background-color: #ffffff;
+}
+
+.our_work {
+	margin-top: 65px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 65px;
+}
+
+.our_work_title p {
+	padding-top: 29px;
+	color: #393939;
+	text-align: center;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 19.5px;
+	text-transform: uppercase;
+	/* Text style for "B, log / M" */
+	letter-spacing: 0.36px;
+}
+
+#OUR_PORTFOLIO .button {
+	background-color: #17c2a4;
+	box-shadow: 0 5px 0 #14a58b;
+}
+
+/*OUR_PORTFOLIO end*/
+
+/*WHAT_POEPLE_SAY_ABOUT_US start*/
+
+#WHAT_POEPLE_SAY_ABOUT_US {
+	width: 100%;
+	height: 895px;
+	background-color: #d74680;
+	color: #ffffff;
+}
+
+#WHAT_POEPLE_SAY_ABOUT_US .line {
+	background-color: #000000;
+	opacity: 0.15;
+}
+
+.reviews {
+	width: 100%;
+	margin-top: 71px;
+	display: flex;
+}
+
+.reviews .wrapper {
+	padding-right: 54px;
+}
+
+.top {
+	margin-left: 105px;
+}
+
+.bottom {
+	margin-left: 105px;
+}
+
+.reviews_item {
+	width: 100%;
+}
+
+.reviews h4 {
+	margin-top: 28px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	/* Text style for "Chanel Ima" */
+	letter-spacing: 0.48px;;
+}
+
+.text {
+	font-style: italic;
+	font-size: 21px;
+	line-height: 31.2px;
+	/* Text style for "“, Nullam" */
+	letter-spacing: 0.35px;
+}
+
+.source {
+	margin-top: 9px;
+	color: #ffdd99;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	/* Text style for "Lead Desig" */
+	letter-spacing: 0.36px;
+}
+
+/*WHAT_POEPLE_SAY_ABOUT_US end*/
+
+/*GET_IN_TOUCH start*/
+
+#GET_IN_TOUCH {
+	width: 100%;
+	height: 819px;
+	background-color: #3c5499;
+	color: #ffffff;	
+}
+
+#GET_IN_TOUCH .line {
+	background-color: #273a71;
+}
+
+.input {
+	width: 860px;
+	margin: 0 auto;
+	margin-top: 76px;
+}
+
+input {
+	width: 414px;
+	padding: 25px;
+	height: 56px;
+	color: #ffffff;
+	background-color: #273a71;
+	border: none;
+	border-radius: 0.25em;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+textarea {
+	margin-top: 27px;
+	resize: none;
+	padding: 25px;
+	width: 860px;
+	height: 200px;
+	color: #ffffff;
+	background-color: #273a71;
+	border: none;
+	border-radius: 0.25em;
+	font-family: "Titillium Web";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.name {
+	margin-right: 28px;
+}
+
+input:focus {
+	border: none;
+	box-shadow:0 0 20px #ffffff;
+	outline: none;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+
+input:focus::placeholder {
+	 color:transparent; 
+}
+
+textarea:focus {
+	border: none;
+	box-shadow:0 0 20px #ffffff;
+	outline: none;
+}
+
+textarea::placeholder {
+    color: #ffffff;
+}
+
+
+textarea:focus::placeholder {
+	 color:transparent; 
+}
+
+#GET_IN_TOUCH .button {
+	background-color: #30bae7;
+	box-shadow: 0 5px 0 #299ec4; 
+}
+
+footer {
+	width: 100%;
+	height: 112px;
+	background-color: #344b8e;
+}
+
+.footer_nav {
+	display: flex;
+	justify-content: center;
+}
+
+.footer_nav  a{
+	margin: 0 29px;
+	margin-top: 48px;
+	color: #ffffff;
+	font-family: "Titillium Web";
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 29.91px;
+	/* Text style for "F, acebook" */
+	letter-spacing: 0.48px;
+}
+
+.footer_nav a:hover {
+	color: #30bae7;;
+}
